@@ -1,0 +1,51 @@
+.logo { 
+    
+    width: 255px;
+    height: auto;
+    margin-bottom: 30px;
+
+}
+.tabelle2{
+    padding-left: 50%;
+    margin-bottom: 100px;
+}
+.zeile, .titletable{
+    border: 1px solid #333333;
+    border-collapse: collapse;
+
+}
+.titletable{
+    background-color: gray;
+}
+.tabellerechnung{
+    width: 100%;
+    margin-bottom: 50px;
+}
+.Unterschrift{
+    height: 60px;
+    margin-bottom: 50px;
+}
+p{
+    font-size: 18px 
+}
+h2{
+    font-size: 18px 
+}
+.unterstezeile{
+    border-bottom: double 3px #333333;
+    border-top: 1px solid #333333;
+    border-left: 1px solid #333333;
+    border-right: 1px solid #333333;
+}
+.tabellerechnung{
+    border-top: 1px solid #333333;
+    border-left: 1px solid #333333;
+    border-right: 1px solid #333333;
+    border-collapse: collapse;
+}
+ul{
+
+    padding-left: 0; 
+    list-style-position: inside; 
+
+}
