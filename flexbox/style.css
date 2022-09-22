@@ -1,0 +1,42 @@
+.flex-container {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+
+    display: flex;
+    flex-wrap: row;
+    flex-direction: row-reverse;
+    /** Für Aufgabe 1 kannst du von hier... **/
+
+
+    /** ...bis hier CSS-Deklarationen hinzufügen. **/
+}
+
+.flex-item {
+    background: tomato;
+    margin: 5px;
+    width: 200px;
+    height: 150px;
+    margin-top: 10px;
+    flex-grow: 1;
+    line-height: 150px;
+    color: white;
+    font-weight: bold;
+    font-size: 3em;
+    text-align: center;
+    
+
+}
+.flex-item:first-child{
+    flex-grow: 1;
+
+}
+.flex-item:nth-child(2){
+    flex-grow: 2;
+
+}
+
+/** Für Aufgabe 2 kannst du von hier... **/
+
+
+/** ...bis hier CSS-Deklarationen hinzufügen. **/

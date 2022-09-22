@@ -1,0 +1,90 @@
+.logo {
+
+    width: 255px;
+    height: auto;
+    margin-bottom: 30px;
+
+}
+
+.tabelle2 {
+    padding-left: 50%;
+    margin-bottom: 100px;
+}
+
+.zeile,
+.titletable {
+    border: 1px solid #333333;
+    border-collapse: collapse;
+
+}
+
+.titletable {
+    background-color: gray;
+}
+
+.tabellerechnung {
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.Unterschrift {
+    height: 60px;
+    margin-bottom: 50px;
+}
+
+p {
+    font-size: 18px
+}
+
+h2 {
+    font-size: 18px
+}
+
+.unterstezeile {
+    border-bottom: double 3px #333333;
+    border-top: 1px solid #333333;
+    border-left: 1px solid #333333;
+    border-right: 1px solid #333333;
+}
+
+.tabellerechnung {
+    border-top: 1px solid #333333;
+    border-left: 1px solid #333333;
+    border-right: 1px solid #333333;
+    border-collapse: collapse;
+}
+
+ul {
+
+    padding-left: 0;
+    list-style-position: inside;
+
+}
+
+body {
+    width: 21cm;
+    min-height: 27.9cm;
+    margin: 5% auto;
+    padding: 2cm 2.5cm;
+    border: 1px solid #333333;
+    box-shadow: -6px 6px 12px rgb(0, 0, 0);
+    font-family: 'Indie Flower', cursive;
+}
+
+.bodyclass {
+    box-shadow: -6px 6px 12px rgb(0, 78, 246);
+}
+
+.instalink i {
+
+    font-size: 40px;
+    color: #000;
+}
+
+.zeile:first-child {
+    background-color: aqua;
+}
+
+.zeile4 {
+    border-left: 1px solid #ffffff;
+}

@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aurel</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Noto+Sans+Balinese&display=swap"
+    rel="stylesheet">
+</head>
+
+<body class="bodyclass">
+  <div class="bodyContainer">
+    <header>
+      <H1>CSS Ausflug</H1>
+    </header>
+    <nav class="mainNav">
+
+    </nav>
+    <nav class="subNav">
+
+    </nav>
+    <main>
+      <form action="https://formlog.offline.ch/log" method="POST">
+        <div class="completesurvey">
+          <div class="Container">
+            <div class="Personalien">
+              <h3>Personalien</h3>
+              <table>
+                <tr>
+                  <td>
+                    <label for="vorname">Vorname</label>
+                  </td>
+                  <td>
+                    <input type="text" id="vorname" name="Vorname">
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <label for="nachname">Nachname</label>
+                  </td>
+                  <td>
+                    <input type="text" id="nachname" name="Nachname">
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <label for="email">Email</label>
+                  </td>
+                  <td>
+                    <input type="email" id="email" name="email">
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <label for="adresse">Adresse</label>
+                  </td>
+                  <td>
+                    <input type="text" id="adresse" name="Adresse">
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <label for="wohnort">Wo wohnen Sie?</label>
+                  </td>
+                  <td>
+                    <input type="text" id="wohnort" name="Wohnort">
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <label for="telefonnummer">Telefonnummer</label>
+                  </td>
+                  <td>
+                    <input type="tel" id="telefonnummer" name="Telefonnummer">
+                  </td>
+                </tr>
+              </table>
+            </div>
+            <div class="ubernachtunEssen">
+
+              <h3>Was möchtest du essen?</h3>
+              <input type="radio" id="essenr1" name="essen" value="Menü1">
+              <label for="essenr1">Menü 1</label><br />
+
+              <input type="radio" id="essenr2" name="essen" value="Menü2">
+              <label for="essenr2">Menü2</label><br />
+
+              <h3>Mit oder ohne übernachtung?</h3>
+              <input type="radio" id="ubernachtungr1" name="ubernachtung" value="mitUbernachtung">
+              <label for="ubernachtungr1">mit Übernachtung</label><br />
+
+              <input type="radio" id="ubernachtungr2" name="ubernachtung" value="ohneUbernachtung">
+              <label for="ubernachtungr2">ohne Übernachtung</label><br />
+
+              <h3>Doppel oder Einzelzimmer?</h3>
+              <input type="radio" id="zimmer1" name="zimmer" value="Einzelzimmer">
+              <label for="zimmer1">Einzelzimmer</label><br />
+
+              <input type="radio" id="zimmer2" name="zimmer" value="Doppelzimmer">
+              <label for="zimmer2">Doppelzimmer</label><br />
+            </div>
+            <div class="anreiseBemerkung">
+              <h3>Welches abo besitzt du?</h3>
+              <input type="radio" id="abor1" name="abo" value="Kein Abo">
+              <label for="abor1">Kein Abo</label><br />
+
+              <input type="radio" id="abor2" name="abo" value="GA">
+              <label for="abor2">GA</label><br />
+
+              <input type="radio" id="abor3" name="abo" value="Halbtax">
+              <label for="abor3">Halbtax</label><br />
+
+              <input type="radio" id="abor4" name="abo" value="Streckenabo Luzern-Zürich">
+              <label for="abor4">Streckenabo Luzern-Zürich</label>
+
+              <h3>Bemerkung</h3>
+              <textarea cols="50" rows="15" placeholder="Bemerkung" name="Bemerkung"></textarea>
+            </div>
+          </div>
+          <input type="submit" value="Bestätigen" class="bestbutton">
+        </div>
+      </form>
+    </main>
+    <aside>
+
+    </aside>
+    <footer>
+
+    </footer>
+  </div>
+</body>
+
+</html>
