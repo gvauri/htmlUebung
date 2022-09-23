@@ -1,18 +1,10 @@
 
-h1 {
-    font-family: 'EB Garamond', serif;
-}
-
 
 img {
     max-width: 100%;
     height: auto;
 }
 
-body {
-    font-family: Arial;
-    margin: 5% auto;
-}
 
 .container{
     display: grid;
@@ -26,13 +18,7 @@ body {
     background-color: rgb(136, 169, 231);
 }
 
-nav{
-    background-color: #333333;
-    font-family: Arial;
-    color: white;
-    font-size: larger;
-    text-align: center;
-}
+
 
 .socials {
     display: flex;

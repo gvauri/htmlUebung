@@ -5,7 +5,6 @@
     
     position: relative;
     z-index: 1;
-    width: 1500px;
     margin: 5 auto;
 }
 .placehcmLogo{
@@ -30,13 +29,13 @@
     margin-left: -20%;
     flex-grow: 1.5;
 }
-nav{
+.mainNav{
     
     grid-column: 2 / 4;
     background-color:aquamarine;
     border: 2px;
 }
-main{
+.mainMain{
     grid-row: 3/4;
     grid-column: 1 / 4;
     background-color:bisque;
@@ -51,11 +50,13 @@ article{
     background-color:blue;
     border: 2px;
 }
+main{
+    grid-column: 1/4;
+}
 footer{
     
     grid-column: 1/4;
-    background-color:brown;
-    border: 2px;
+    
 }
 h1{
     font-size: 50px;
@@ -126,6 +127,8 @@ a{
     
 }
 .containerFooter{
+    background-color:brown;
+    border: 2px;
     padding: 20px;
     display: grid;
     grid-template-columns: auto auto auto auto;
@@ -163,8 +166,56 @@ a{
   }
   .sideBarButton{
     color:#125688;
+    width: 100%;
+    height: 100%;
+    display: block;
+    font-size: 25px;
+  }
+  .sideBarButton.side{
+    height: 75px;
   }
   nav{
     display: grid;
     grid-template-columns: auto auto auto;
   }
+  .bodyTeam{
+    display: grid;
+    grid-template-rows: auto auto auto;
+    position: relative;
+    z-index: 1;
+    margin: 5 auto;
+  }
+  .navSide{
+
+    background-color: #333333;
+    font-family: Arial;
+    color: white;
+    text-align: center;
+    display: grid;
+    grid-template-rows: auto auto auto auto auto auto auto;
+}
+.navSideTitle{
+    padding-top: 40px;
+    background-color: #333333;
+    font-family: Arial;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+body {
+    font-family: Arial;
+    margin: 5% auto;
+}
+h1 {
+    font-family: 'EB Garamond', serif;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.headContainer{
+    display: grid;
+    grid-template-columns: 200px auto ;
+    grid-template-rows: 120px 50px ;
+}
