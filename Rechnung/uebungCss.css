@@ -11,8 +11,7 @@
     margin-bottom: 100px;
 }
 
-.zeile,
-.titletable {
+.zeile,.titletable {
     border: 1px solid #333333;
     border-collapse: collapse;
 
