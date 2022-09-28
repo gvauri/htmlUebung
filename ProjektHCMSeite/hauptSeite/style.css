@@ -22,6 +22,7 @@
     
 }
 .titelHCM{
+    font-size: 55px;
     flex-grow: 2;
     color:aliceblue;
 }
@@ -60,7 +61,7 @@ footer{
     
 }
 h1{
-    font-size: 50px;
+    font-size: 40px;
 }
 .hcmLogo{
     
@@ -70,6 +71,7 @@ h1{
     left: 30;
 }
 .mySlides,.image1,.image2,.image3,.image4{
+    font-family: 'EB Garamond', serif;
     margin:5px auto;
     border-radius: 8px;
 }
@@ -167,6 +169,12 @@ a{
     text-decoration: none;
     margin: 5px 2px;
   }
+  .fa:link{
+    color: white;
+  }
+  .fa:visited {
+    color: white;
+}
   .sideBarButton{
     color:#125688;
     width: 100%;
@@ -178,10 +186,12 @@ a{
     height: 75px;
   }
   nav{
+    font-family: 'EB Garamond', serif;
     display: grid;
     grid-template-columns: auto auto auto;
   }
   .bodyTeam{
+    font-family: 'EB Garamond', serif;
     display: grid;
     grid-template-rows: auto auto auto;
     position: relative;
@@ -189,9 +199,8 @@ a{
     margin: 5 auto;
   }
   .navSide{
-
+    font-family: 'EB Garamond', serif;
     background-color: #333333;
-    font-family: Arial;
     color: white;
     text-align: center;
     display: grid;
@@ -200,14 +209,13 @@ a{
 .navSideTitle{
     padding-top: 40px;
     background-color: #333333;
-    font-family: Arial;
     color: white;
     text-align: center;
     display: flex;
     flex-direction: column;
 }
 body {
-    font-family: Arial;
+    font-family: 'EB Garamond', serif;
     margin: 5% auto;
 }
 h1 {
@@ -233,4 +241,3 @@ body{
     display: block;
     font-size: 15px;
   }
-  
